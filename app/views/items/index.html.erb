@@ -1,7 +1,16 @@
 <%= form_tag items_path, :method => 'get', :id => "test" do %>
       <p>
-        <%= text_area_tag :test, params[:test], placeholder: "Put in stuff" %>
-        <%= submit_tag "put out stuff", :name => nil %>
+        <%= text_field_tag :waist, params[:waist], placeholder: "Waist" %>
+        <br>
+        <%= text_field_tag :front_rise, params[:front_rise], placeholder: "Front Rise" %>
+        <br>
+        <%= text_field_tag :thigh, params[:thigh], placeholder: "Thigh" %>
+        <br>
+        <%= text_field_tag :knee, params[:knee], placeholder: "Knee" %>
+        <br>
+        <%= text_field_tag :leg_opening, params[:leg_opening], placeholder: "Leg Opening" %>
+        <br>
+        <%= submit_tag "Normalize", :name => nil %>
       </p>
     <% end %>
 
