@@ -1,2 +1,52 @@
-<h1>Items#index</h1>
-<p>Find me in app/views/items/index.html.erb</p>
+<%= form_tag items_path, :method => 'get', :id => "test" do %>
+      <p>
+        <%= text_area_tag :test, params[:test], placeholder: "Put in stuff" %>
+        <%= submit_tag "put out stuff", :name => nil %>
+      </p>
+    <% end %>
+
+  '<%= @test %>'
+
+<h2>All the items</h2>
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Brand</th>
+		<th>Tag-Size</th>
+		<th>Waist</th>
+		<th>Front-Rise</th>
+		<th>Thigh</th>
+		<th>Knee</th>
+		<th>Leg-Opening</th>
+		<th>Inseam</th>
+		<th>Color</th>
+		<th>Denim-Weight</th>
+		<th>Sanforization</th>
+		<th>Price</th>
+		<th>Link</th>
+
+	</tr>
+
+	<% @items.each do |item| %>
+		<tr>
+			<td><%= item.name %></td>
+			<td><%= item.brand %></td>
+			<td><%= item.tag_size%></td>
+			<td><%= item.waist %></td>
+			<td><%= item.front_rise %></td>
+			<td><%= item.thigh %></td>
+			<td><%= item.knee %></td>
+			<td><%= item.leg_opening %></td>
+			<td><%= item.inseam %></td>
+			<td><%= item.color %></td>
+			<td><%= item.denim_weight %></td>
+			<td><%= item.sanforized %></td>
+			<td><%= item.price %></td>
+			<td><%= item.link %></td>
+			<td><%= link_to "Edit", edit_item_path(item) %></td>
+		</tr>
+	<% end %>	
+
+</table>
+
+<%= link_to "New", new_item_path %>

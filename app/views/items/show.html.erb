@@ -1,2 +1,36 @@
-<h1>Items#show</h1>
-<p>Find me in app/views/items/show.html.erb</p>
+<h1><%= @item.name %></h1>
+
+<b>Name:  </b>
+	<%= @item.name %><br>
+<b>Brand:  </b>
+	<%= @item.brand %><br>
+<b>Tag Size:  </b>
+	<%= @item.tag_size %><br>
+<b>Waist:  </b>
+	<%= @item.waist %><br>
+<b>Front Rise: </b> 
+	<%= @item.front_rise %><br>
+<b>Thigh:  </b>
+	<%= @item.thigh %><br>
+<b>Knee:  </b>
+	<%= @item.knee %><br>
+<b>Leg Opening: </b> 
+	<%= @item.leg_opening %><br>
+<b>Inseam:  </b>
+	<%= @item.inseam %><br>
+<b>Color:  </b>
+	<%= @item.color %><br>
+<b>Weight</b>
+	<%= @item.denim_weight %><br>
+<b>Sanforized:  </b>
+	<%= @item.sanforized %><br>
+<b>Price:  </b>
+	<%= @item.price %><br>
+<b>Color:  </b>
+	<%= @item.color %><br>
+<b>More Info:  </b>
+	<%= @item.link %><br>
+
+<%= link_to "New", new_item_path %>
+<%= link_to "Index", items_path %>
+<%= link_to "Edit", edit_item_path(@item) %>
