@@ -1,11 +1,11 @@
 class ItemsController < ApplicationController
   def index
   	@items = Item.all
-  	@test = params[:waist].to_f/params[:waist].to_f,
-  			params[:front_rise].to_f/params[:waist].to_f,
-  			params[:thigh].to_f/params[:waist].to_f,
-  			params[:knee].to_f/params[:waist].to_f,
-  			params[:leg_opening].to_f/params[:waist].to_f
+  	@waist = 	   params[:waist].to_f/params[:waist].to_f
+  	@front_rise =  params[:front_rise].to_f/params[:waist].to_f
+  	@thigh =	   params[:thigh].to_f/params[:waist].to_f
+  	@knee =		   params[:knee].to_f/params[:waist].to_f
+  	@leg_opening = params[:leg_opening].to_f/params[:waist].to_f
   end
 
   def show
