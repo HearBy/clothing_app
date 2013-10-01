@@ -11,18 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130930192304) do
+ActiveRecord::Schema.define(version: 20131001024603) do
 
   create_table "items", force: true do |t|
     t.string   "name"
     t.string   "brand"
-    t.decimal  "waist"
-    t.decimal  "front_rise"
-    t.decimal  "thigh"
-    t.decimal  "knee"
-    t.decimal  "leg_opening"
-    t.decimal  "inseam"
-    t.decimal  "denim_weight"
+    t.decimal  "waist",        precision: 5, scale: 3
+    t.decimal  "front_rise",   precision: 5, scale: 3
+    t.decimal  "thigh",        precision: 5, scale: 3
+    t.decimal  "knee",         precision: 5, scale: 3
+    t.decimal  "leg_opening",  precision: 5, scale: 3
+    t.decimal  "inseam",       precision: 5, scale: 1
+    t.decimal  "denim_weight", precision: 5, scale: 2
     t.boolean  "sanforized"
     t.string   "color"
     t.string   "price"
@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 20130930192304) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "tag_size"
+    t.boolean  "stretch"
   end
 
 end

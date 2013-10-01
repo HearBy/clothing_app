@@ -1,11 +1,19 @@
 class ItemsController < ApplicationController
   def index
-  	@items = Item.all
-  	@waist = 	   params[:waist].to_f/params[:waist].to_f
-  	@front_rise =  params[:front_rise].to_f/params[:waist].to_f
-  	@thigh =	   params[:thigh].to_f/params[:waist].to_f
-  	@knee =		   params[:knee].to_f/params[:waist].to_f
-  	@leg_opening = params[:leg_opening].to_f/params[:waist].to_f
+    @waist = 1   
+    @front_rise = 1
+    @thigh =  1 
+    @knee =  1
+    @leg_opening = 1
+
+    if params[:waist]
+    	@waist = 	   params[:waist].to_f/params[:waist].to_f
+    	@front_rise =  params[:front_rise].to_f/params[:waist].to_f
+    	@thigh =	   params[:thigh].to_f/params[:waist].to_f
+    	@knee =		   params[:knee].to_f/params[:waist].to_f
+    	@leg_opening = params[:leg_opening].to_f/params[:waist].to_f
+    end
+    @items = Item.sizer(params[:waist], @front_rise, @thigh, @knee, @leg_opening)
   end
 
   def show

@@ -1,3 +1,4 @@
+<div class="col-md-12">
 <h1>Enter a new Item into the database</h1>
 
 <%= form_for @item do |f| %>
@@ -24,6 +25,8 @@
 	<br>
 	<%= f.check_box :sanforized %> The Jean is Sanforized
 	<br>
+	<%= f.check_box :stretch %> The Jean is stretchy
+	<br>
 	<%= f.text_field :color, placeholder: "Color" %>
 	<br>
 	<%= f.text_field :price, placeholder: "Price" %>
@@ -33,4 +36,7 @@
 	<%= f.submit "Save Item" %>
 
 <% end %>
+
 <%= link_to "Index", items_path %>
+
+</div>

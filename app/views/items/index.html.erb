@@ -1,65 +1,19 @@
-<%= form_tag items_path, :method => 'get', :id => "test" do %>
-      <p>
-        <%= text_field_tag :waist, params[:waist], placeholder: "Waist" %>
-        <br>
-        <%= text_field_tag :front_rise, params[:front_rise], placeholder: "Front Rise" %>
-        <br>
-        <%= text_field_tag :thigh, params[:thigh], placeholder: "Thigh" %>
-        <br>
-        <%= text_field_tag :knee, params[:knee], placeholder: "Knee" %>
-        <br>
-        <%= text_field_tag :leg_opening, params[:leg_opening], placeholder: "Leg Opening" %>
-        <br>
-        <%= submit_tag "Normalize", :name => nil %>
-      </p>
-    <% end %>
+<div class="col-md-12">
 
-  <b>Waist:</b>			<%= @waist %><br>
-  <b>Front Rise:</b>    <%= @front_rise %><br>
-  <b>Thigh:</b> 		<%= @thigh %><br>
-  <b>Knee:</b>			<%= @knee %><br>
-  <b>Leg Opening:</b>   <%= @leg_opening %><br>
+<br>
+
+<%= render 'sizer_form' %>
+
+<b>Waist:</b>			<%= number_with_precision(@waist, :precision => 4) %><br>
+<b>Front Rise:</b>    <%= number_with_precision(@front_rise, :precision => 4) %><br>
+<b>Thigh:</b> 		<%= number_with_precision(@thigh, :precision => 4) %><br>
+<b>Knee:</b>			<%= number_with_precision(@knee, :precision => 4) %><br>
+<b>Leg Opening:</b>   <%= number_with_precision(@leg_opening, :precision => 4) %><br>
 
 <h2>All the items</h2>
-<table>
-	<tr>
-		<th>Name</th>
-		<th>Brand</th>
-		<th>Tag-Size</th>
-		<th>Waist</th>
-		<th>Front-Rise</th>
-		<th>Thigh</th>
-		<th>Knee</th>
-		<th>Leg-Opening</th>
-		<th>Inseam</th>
-		<th>Color</th>
-		<th>Denim-Weight</th>
-		<th>Sanforization</th>
-		<th>Price</th>
-		<th>Link</th>
 
-	</tr>
-
-	<% @items.each do |item| %>
-		<tr>
-			<td><%= item.name %></td>
-			<td><%= item.brand %></td>
-			<td><%= item.tag_size%></td>
-			<td><%= item.waist %></td>
-			<td><%= item.front_rise %></td>
-			<td><%= item.thigh %></td>
-			<td><%= item.knee %></td>
-			<td><%= item.leg_opening %></td>
-			<td><%= item.inseam %></td>
-			<td><%= item.color %></td>
-			<td><%= item.denim_weight %></td>
-			<td><%= item.sanforized %></td>
-			<td><%= item.price %></td>
-			<td><%= item.link %></td>
-			<td><%= link_to "Edit", edit_item_path(item) %></td>
-		</tr>
-	<% end %>	
-
-</table>
+<%= render 'index_table' %>
 
 <%= link_to "New", new_item_path %>
+
+</div>

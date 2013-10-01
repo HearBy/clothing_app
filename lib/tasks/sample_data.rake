@@ -18,6 +18,7 @@ def make_items
 				   denim_weight: 14.5,
 				   inseam: 37,
 				   sanforized: true,
+				   stretch: false,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -33,6 +34,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -48,6 +50,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -63,6 +66,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -78,6 +82,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -93,6 +98,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 	
@@ -108,6 +114,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -123,6 +130,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -138,6 +146,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -153,6 +162,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -168,6 +178,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -183,6 +194,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -198,6 +210,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -213,6 +226,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -228,6 +242,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -243,6 +258,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -258,6 +274,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -273,6 +290,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -288,6 +306,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -303,6 +322,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -318,6 +338,7 @@ def make_items
 				   color: "Indigo",
 				   denim_weight: 14.5,
 				   sanforized: true,
+				   stretch: false,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 end

@@ -1,0 +1,46 @@
+<table class="table table-striped">
+	<tr>
+		<th>Name</th>
+		<th>Brand</th>
+		<th>Front-Rise (Norm)</th>
+		<th>Thigh (Norm)</th>
+		<th>Knee (Norm)</th>
+		<th>Leg-Opening (Norm)</th>
+		<th>Tag-Size</th>
+		<th>Waist</th>
+		<th>Front-Rise</th>
+		<th>Thigh</th>
+		<th>Knee</th>
+		<th>Leg-Opening</th>
+		<th>Inseam</th>
+		<th>Color</th>
+		<th>Denim-Weight</th>
+		<th>Sanforization</th>
+		<th>Stretch</th>
+		<th>Price</th>
+	</tr>
+
+	<% @items.each do |item| %>
+		<tr>
+			<td><%= item.name %></td>
+			<td><%= item.brand %></td>
+			<td><%= number_with_precision(item.front_rise/item.waist - @front_rise, :precision => 4) %></td>
+			<td><%= number_with_precision(item.thigh/item.waist - @thigh, :precision => 4) %></td>
+			<td><%= number_with_precision(item.knee/item.waist - @knee, :precision => 4) %></td>
+			<td><%= number_with_precision(item.leg_opening/item.waist - @leg_opening, :precision => 4) %></td>
+			<td><%= item.tag_size %></td>
+			<td><%= item.waist %></td>
+			<td><%= item.front_rise %></td>
+			<td><%= item.thigh %></td>
+			<td><%= number_with_precision(item.knee, :precision => 2) %></td>
+			<td><%= number_with_precision(item.leg_opening, :precision => 2) %></td>
+			<td><%= item.inseam %></td>
+			<td><%= item.color %></td>
+			<td><%= item.denim_weight %></td>
+			<td><%= item.sanforized %></td>
+			<td><%= item.stretch %></td>
+			<td><%= item.price %></td>
+			<td><%= link_to "Edit", edit_item_path(item) %></td>
+		</tr>
+	<% end %>	
+  </table>

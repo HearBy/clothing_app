@@ -1,6 +1,14 @@
 source 'https://rubygems.org'
 ruby '2.0.0' #ruby-gemset=railstutorial_rails_4_0
 gem 'rails', '4.0.0'
+gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
+                          :github => 'anjlab/bootstrap-rails',
+                          :branch => '3.0.0'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
+gem 'rake'
+gem 'execjs'
+gem 'kaminari'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
