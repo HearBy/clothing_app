@@ -22,6 +22,17 @@ class ItemsController < ApplicationController
 
   def new
   	@item = Item.new
+  	@parse = ''
+  	if params[:parse]
+  		c = params[:parse]
+  		@tag_size =    c.split(',')[0].split('Size ')[1].split(' (')[0] 
+        @waist =       c.split('(')[1].split('"')[0] 
+        @front_rise =  c.split('(')[1].split('"')[1].split(', ')[1] 
+        @thigh =       c.split('(')[1].split('"')[2].split(', ')[1] 
+        @knee =        c.split('(')[1].split('"')[3].split(', ')[1] 
+        @leg_opening = c.split('(')[1].split('"')[5].split(', ')[1]
+        @inseam =      c.split('(')[1].split('"')[4].split(', ')[1] 
+    end
   end
 
   def create
