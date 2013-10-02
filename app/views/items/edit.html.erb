@@ -1,3 +1,6 @@
+<%= render 'layouts/header' %>
+
+<div class="col-md-6"
 <h1>Edit an existing Item in the database</h1>
 
 <%= form_for @item do |f| %>
@@ -30,7 +33,8 @@
 	<br>
 	<%= f.text_field :link, placeholder: "Link" %>
 	<br>
-	<%= f.submit "Save Item" %>
+	<%= f.submit "Save Item", class: "btn btn-medium btn-primary" %>
 
 <% end %>
-<%= link_to "Index", items_path %>
+
+</div>

@@ -1,19 +1,6 @@
 <%= render 'layouts/header' %>
 
 <div class="col-md-6">
-	  <%= form_tag new_item_path, :method => 'get', :id => "parse" do %>
-      <p>
-        <%= text_area_tag :parse, params[:parse], placeholder: "Put in formatted jeans to get parsed jeans" %>
-        <%= submit_tag "Parse", :name => nil, class: "btn btn-medium btn-primary" %>
-      </p>
-    <% end %>
-    tag_size: <%= @tag_size %>,<br>
-    waist: <%= @waist %>,<br>
-    front_rise: <%= @front_rise %>,<br>
-    thigh: <%= @thigh %>,<br>
-    knee: <%= @knee %>,<br>
-    leg_opening: <%= @leg_opening %>,<br> 
-    inseam: <%= @inseam %>,<br>
 
 <h1>Enter a new Item into the database</h1>
 
@@ -52,7 +39,5 @@
 	<%= f.submit "Save Item" %>
 
 <% end %>
-
-<%= link_to "Index", items_path %>
 
 </div>

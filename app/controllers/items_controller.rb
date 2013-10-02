@@ -18,10 +18,6 @@ class ItemsController < ApplicationController
 
   def show
   	@item = Item.find(params[:id])
-  end
-
-  def new
-  	@item = Item.new
   	@parse = ''
   	if params[:parse]
   		c = params[:parse]
@@ -33,6 +29,10 @@ class ItemsController < ApplicationController
         @leg_opening = c.split('(')[1].split('"')[5].split(', ')[1]
         @inseam =      c.split('(')[1].split('"')[4].split(', ')[1] 
     end
+  end
+
+  def new
+  	@item = Item.new
   end
 
   def create
