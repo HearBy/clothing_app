@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131003002917) do
+ActiveRecord::Schema.define(version: 20131007030703) do
 
   create_table "items", force: true do |t|
     t.string   "name"
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20131003002917) do
     t.boolean  "stretch"
     t.string   "fabric_origin"
     t.string   "made_in"
+    t.boolean  "selvedge"
   end
 
 end

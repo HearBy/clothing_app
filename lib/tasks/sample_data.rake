@@ -23,6 +23,7 @@ def make_items
 				   inseam: 37,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -41,6 +42,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -59,6 +61,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -77,6 +80,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -95,6 +99,7 @@ def make_items
 				   made_in: "USA",
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -113,6 +118,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 	
@@ -131,6 +137,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -149,6 +156,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -167,6 +175,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -185,6 +194,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -205,6 +215,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
@@ -223,6 +234,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
@@ -241,6 +253,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
@@ -259,6 +272,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
@@ -277,6 +291,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
@@ -295,6 +310,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
@@ -313,6 +329,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
@@ -331,6 +348,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "215.00",
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
@@ -351,6 +369,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -369,6 +388,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -387,6 +407,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -405,6 +426,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -423,6 +445,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -441,6 +464,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -459,6 +483,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -477,6 +502,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -495,6 +521,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -513,6 +540,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -531,6 +559,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "210.00",
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
@@ -550,6 +579,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "265.00",
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
@@ -568,6 +598,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "265.00",
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
@@ -586,6 +617,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "265.00",
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
@@ -604,6 +636,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "265.00",
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
@@ -622,6 +655,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "265.00",
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
@@ -640,6 +674,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "265.00",
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
@@ -658,6 +693,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "265.00",
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
@@ -676,6 +712,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "265.00",
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
@@ -695,6 +732,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -713,6 +751,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -731,6 +770,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -749,6 +789,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -767,6 +808,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -785,6 +827,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -803,6 +846,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -821,6 +865,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -839,6 +884,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -857,6 +903,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -875,6 +922,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -893,6 +941,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
@@ -912,6 +961,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
@@ -930,6 +980,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
@@ -948,6 +999,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
@@ -966,6 +1018,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
@@ -984,6 +1037,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
@@ -1002,6 +1056,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
@@ -1020,6 +1075,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
@@ -1038,6 +1094,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
@@ -1056,6 +1113,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
@@ -1075,6 +1133,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
@@ -1093,6 +1152,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
@@ -1111,6 +1171,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
@@ -1129,6 +1190,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
@@ -1147,6 +1209,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
@@ -1165,6 +1228,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
@@ -1183,6 +1247,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
@@ -1201,6 +1266,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=7")
 	
@@ -1219,6 +1285,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
@@ -1238,6 +1305,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 	
@@ -1256,6 +1324,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
@@ -1274,6 +1343,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
@@ -1292,6 +1362,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
@@ -1310,6 +1381,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
@@ -1328,6 +1400,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
@@ -1346,6 +1419,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
@@ -1364,6 +1438,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
@@ -1382,6 +1457,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
@@ -1400,6 +1476,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
@@ -1419,6 +1496,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
@@ -1437,6 +1515,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
@@ -1455,6 +1534,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
@@ -1473,6 +1553,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
@@ -1491,6 +1572,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
@@ -1509,6 +1591,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
@@ -1527,6 +1610,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
@@ -1545,6 +1629,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
@@ -1563,6 +1648,7 @@ def make_items
 				   denim_weight: 12,
 				   sanforized: true,
 				   stretch: true,
+				   selvedge: true,
 				   price: "185.00",
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
@@ -1582,6 +1668,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
@@ -1600,6 +1687,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
@@ -1618,6 +1706,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
@@ -1636,6 +1725,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
@@ -1654,6 +1744,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
@@ -1672,6 +1763,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
@@ -1690,6 +1782,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
@@ -1709,6 +1802,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
@@ -1727,6 +1821,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
@@ -1745,6 +1840,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
@@ -1763,6 +1859,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
@@ -1781,6 +1878,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
@@ -1799,6 +1897,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
@@ -1817,6 +1916,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
@@ -1835,6 +1935,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "78.00",
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
@@ -1855,6 +1956,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "82.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-145oz-selvedge-in-indigo-model-ub301/")
 
@@ -1873,6 +1975,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "82.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-145oz-selvedge-in-indigo-model-ub301/")
 
@@ -1891,6 +1994,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "82.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-145oz-selvedge-in-indigo-model-ub301/")
 
@@ -1909,6 +2013,7 @@ def make_items
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "82.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-145oz-selvedge-in-indigo-model-ub301/")
 
@@ -1928,6 +2033,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
@@ -1946,6 +2052,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
@@ -1964,6 +2071,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
@@ -1982,6 +2090,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
@@ -2000,6 +2109,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
@@ -2018,6 +2128,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
@@ -2036,6 +2147,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
@@ -2054,6 +2166,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
@@ -2072,6 +2185,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
@@ -2091,6 +2205,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
@@ -2109,6 +2224,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
@@ -2127,6 +2243,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
@@ -2145,6 +2262,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
@@ -2163,6 +2281,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
@@ -2181,6 +2300,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
@@ -2199,6 +2319,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
@@ -2217,6 +2338,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
@@ -2235,6 +2357,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
@@ -2255,6 +2378,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
@@ -2273,6 +2397,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
@@ -2291,6 +2416,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
@@ -2309,6 +2435,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
@@ -2327,6 +2454,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
@@ -2345,6 +2473,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
@@ -2363,6 +2492,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
@@ -2381,6 +2511,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
@@ -2399,6 +2530,7 @@ def make_items
 				   denim_weight: 21,
 				   sanforized: true,
 				   stretch: false,
+				   selvedge: true,
 				   price: "110.00",
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
