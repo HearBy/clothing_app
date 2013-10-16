@@ -64,7 +64,7 @@ class ItemsController < ApplicationController
 							:front_rise, :thigh, :knee,
 							:leg_opening, :price, :color,
 							:brand, :link, :denim_weight,
-							:sanforized, :inseam, 
+							:sanforized, :inseam, :stretch,
 							:tag_size, :made_in, :fabric_source,
 							:selvedge)
   end
