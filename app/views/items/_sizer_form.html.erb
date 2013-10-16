@@ -1,15 +1,29 @@
 <%= form_tag items_path, :method => 'get', :id => "test" do %>
-      <p>
-        <%= text_field_tag :waist, params[:waist], placeholder: "Waist" %>
-        <br>
-        <%= text_field_tag :front_rise, params[:front_rise], placeholder: "Front Rise" %>
-        <br>
-        <%= text_field_tag :thigh, params[:thigh], placeholder: "Thigh" %>
-        <br>
-        <%= text_field_tag :knee, params[:knee], placeholder: "Knee" %>
-        <br>
-        <%= text_field_tag :leg_opening, params[:leg_opening], placeholder: "Leg Opening" %>
-        <br>
-        <%= submit_tag "Search", :name => nil %>
-      </p>
+    <div class"row">
+        <div class="col-md-2">
+            <%= text_field_tag :waist, params[:waist], placeholder: "Waist" %>
+            <br>
+            <%= text_field_tag :front_rise, params[:front_rise], placeholder: "Front Rise" %>
+            <br>
+            <%= text_field_tag :thigh, params[:thigh], placeholder: "Thigh" %>
+            <br>
+            <%= text_field_tag :knee, params[:knee], placeholder: "Knee" %>
+            <br>
+            <%= text_field_tag :leg_opening, params[:leg_opening], placeholder: "Leg Opening" %>
+            <br>
+        </div>
+        <div class="col-md-2">
+            <%#= select_tag :made_in, options_for_select([['All', 1], ['USA', 2], ['Japan', 3], ['China', 4]], :selected => params[:made_in]) %>
+            <br>
+            <%= select_tag :made_in, options_from_collection_for_select(Item.select(:made_in).uniq, :made_in, :made_in), :prompt => 'All Countries' %>
+            <br>
+            <%= select_tag :fabric_origin, options_from_collection_for_select(Item.select(:fabric_origin).uniq, :fabric_origin, :fabric_origin), :prompt => 'All Mills' %>
+            <br>
+            <%= select_tag :color, options_from_collection_for_select(Item.select(:color).uniq, :color, :color), :prompt => 'All Colors' %>
+            <br>
+            <%= select_tag :brand, options_from_collection_for_select(Item.select(:brand).uniq, :brand, :brand), :prompt => 'All Brands' %>
+            <br>
+            <%= submit_tag "Search", :name => nil %>
+        </div>
+    </div>
 <% end %>
