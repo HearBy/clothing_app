@@ -10,8 +10,9 @@ gem 'rake'
 gem 'execjs'
 gem 'kaminari'
 
+gem 'pg'
+
 group :development, :test do
-  gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.1'
 end
 
@@ -32,6 +33,5 @@ group :doc do
 end
 
 group :production do
-  gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
