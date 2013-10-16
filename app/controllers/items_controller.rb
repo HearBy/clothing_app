@@ -13,7 +13,9 @@ class ItemsController < ApplicationController
     	@knee =		   params[:knee].to_f/params[:waist].to_f
     	@leg_opening = params[:leg_opening].to_f/params[:waist].to_f
     end
-    @items = Item.sizer(params[:waist], @front_rise, @thigh, @knee, @leg_opening)
+    @items = Item.sizer(params[:waist], @front_rise, @thigh, @knee, @leg_opening, 
+                        params[:made_in], params[:fabric_origin], params[:color],
+                        params[:brand])
   end
 
   def show

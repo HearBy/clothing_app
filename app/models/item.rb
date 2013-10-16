@@ -1,6 +1,6 @@
 class Item < ActiveRecord::Base
-	def self.sizer(waist_size, front_rise, thigh, knee, leg_opening)
-		if waist_size
+	def self.sizer(waist_size, front_rise, thigh, knee, leg_opening, made_in, fabric_origin, color, brand)
+		if !waist_size.blank?
 			where('waist <= ?', (waist_size.to_d + 0.25))
 			.where('waist >= ?', (waist_size.to_d - 0.5))
 			.where("ABS(thigh/waist - ?) < 0.03", thigh)

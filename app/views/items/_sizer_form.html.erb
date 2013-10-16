@@ -15,13 +15,13 @@
         <div class="col-md-2">
             <%#= select_tag :made_in, options_for_select([['All', 1], ['USA', 2], ['Japan', 3], ['China', 4]], :selected => params[:made_in]) %>
             <br>
-            <%= select_tag :made_in, options_from_collection_for_select(Item.select(:made_in).uniq, :made_in, :made_in), :prompt => 'All Countries' %>
+            <%= select_tag :made_in, options_from_collection_for_select(Item.select(:made_in).uniq, :made_in, :made_in, :selected => params[:made_in]), :prompt => 'All Countries' %>
             <br>
-            <%= select_tag :fabric_origin, options_from_collection_for_select(Item.select(:fabric_origin).uniq, :fabric_origin, :fabric_origin), :prompt => 'All Mills' %>
+            <%= select_tag :fabric_origin, options_from_collection_for_select(Item.select(:fabric_origin).uniq, :fabric_origin, :fabric_origin, :selected => params[:fabric_origin]), :prompt => 'All Mills' %>
             <br>
-            <%= select_tag :color, options_from_collection_for_select(Item.select(:color).uniq, :color, :color), :prompt => 'All Colors' %>
+            <%= select_tag :color, options_from_collection_for_select(Item.select(:color).uniq, :color, :color, :selected => params[:color]), :prompt => 'All Colors' %>
             <br>
-            <%= select_tag :brand, options_from_collection_for_select(Item.select(:brand).uniq, :brand, :brand), :prompt => 'All Brands' %>
+            <%= select_tag :brand, options_from_collection_for_select(Item.select(:brand).uniq, :brand, :brand, :selected => params[:brand]), :prompt => 'All Brands' %>
             <br>
             <%= submit_tag "Search", :name => nil %>
         </div>
