@@ -73,18 +73,24 @@ class Item < ActiveRecord::Base
 	end
 
 	def self.sanforized_search(sanforized)
-		if !sanforized.blank?
-			where('sanforized LIKE ?', sanforized)
-		else
-			all
-		end	
+		case sanforized
+	    when "true"
+	      where('sanforized = ?', true)
+	    when "false"
+	      where('sanforized = ?', false)
+	    else
+	      all
+	    end
 	end
 
 	def self.selvedge_search(selvedge)
-		if !selvedge.blank?
-			where('selvedge LIKE ?', selvedge)
-		else
-			all
-		end	
+		case selvedge
+	    when "true"
+	      where('selvedge = ?', true)
+	    when "false"
+	      where('selvedge = ?', false)
+	    else
+	      all
+	    end
 	end
 end

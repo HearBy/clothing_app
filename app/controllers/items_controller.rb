@@ -13,14 +13,13 @@ class ItemsController < ApplicationController
     	@knee =		   params[:knee].to_d/params[:waist].to_d
     	@leg_opening = params[:leg_opening].to_d/params[:waist].to_d
     end
-    # @items = Item.sizer(params[:waist], @front_rise, @thigh, @knee, @leg_opening, 
-    #                     params[:made_in], params[:fabric_origin], params[:color],
-    #                     params[:brand])
+
     @items = Item.waist_search(params[:waist]).front_rise_search(params[:waist], @front_rise)
                  .thigh_search(params[:waist], @thigh).knee_search(params[:waist], @knee)
                  .leg_opening_search(params[:waist], @leg_opening).made_in_search(params[:made_in])
                  .fabric_origin_search(params[:fabric_origin]).color_search(params[:color])
-                 .brand_search(params[:brand])
+                 .brand_search(params[:brand]).sanforized_search(params[:sanforized])
+                 .selvedge_search(params[:selvedge])
 
   end
 
