@@ -7,15 +7,21 @@ class ItemsController < ApplicationController
     @leg_opening = 1
 
     if params[:waist]
-    	@waist = 	   params[:waist].to_f/params[:waist].to_f
-    	@front_rise =  params[:front_rise].to_f/params[:waist].to_f
-    	@thigh =	   params[:thigh].to_f/params[:waist].to_f
-    	@knee =		   params[:knee].to_f/params[:waist].to_f
-    	@leg_opening = params[:leg_opening].to_f/params[:waist].to_f
+    	@waist = 	   params[:waist].to_d/params[:waist].to_d
+    	@front_rise =  params[:front_rise].to_d/params[:waist].to_d
+    	@thigh =	   params[:thigh].to_d/params[:waist].to_d
+    	@knee =		   params[:knee].to_d/params[:waist].to_d
+    	@leg_opening = params[:leg_opening].to_d/params[:waist].to_d
     end
-    @items = Item.sizer(params[:waist], @front_rise, @thigh, @knee, @leg_opening, 
-                        params[:made_in], params[:fabric_origin], params[:color],
-                        params[:brand])
+    # @items = Item.sizer(params[:waist], @front_rise, @thigh, @knee, @leg_opening, 
+    #                     params[:made_in], params[:fabric_origin], params[:color],
+    #                     params[:brand])
+    @items = Item.waist_search(params[:waist]).front_rise_search(params[:waist], @front_rise)
+                 .thigh_search(params[:waist], @thigh).knee_search(params[:waist], @knee)
+                 .leg_opening_search(params[:waist], @leg_opening).made_in_search(params[:made_in])
+                 .fabric_origin_search(params[:fabric_origin]).color_search(params[:color])
+                 .brand_search(params[:brand])
+
   end
 
   def show
@@ -60,6 +66,8 @@ class ItemsController < ApplicationController
   		redirect_to item_path(params[:id])
   	end
   end
+
+  private
 
   def item_params
   	params.require(:item).permit(:name, :waist, 

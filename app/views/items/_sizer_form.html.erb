@@ -14,7 +14,6 @@
         </div>
         <div class="col-md-2">
             <%#= select_tag :made_in, options_for_select([['All', 1], ['USA', 2], ['Japan', 3], ['China', 4]], :selected => params[:made_in]) %>
-            <br>
             <%= select_tag :made_in, options_from_collection_for_select(Item.select(:made_in).uniq, :made_in, :made_in, :selected => params[:made_in]), :prompt => 'All Countries' %>
             <br>
             <%= select_tag :fabric_origin, options_from_collection_for_select(Item.select(:fabric_origin).uniq, :fabric_origin, :fabric_origin, :selected => params[:fabric_origin]), :prompt => 'All Mills' %>
@@ -23,7 +22,32 @@
             <br>
             <%= select_tag :brand, options_from_collection_for_select(Item.select(:brand).uniq, :brand, :brand, :selected => params[:brand]), :prompt => 'All Brands' %>
             <br>
-            <%= submit_tag "Search", :name => nil %>
+        </div>
+        <div class-"col-md-2">
+            Sanforized<br>
+            <%= radio_button_tag :sanforized, true, 
+                        (params[:sanforized] == "true" ? true : false) %>
+            <%= label_tag(:sanforized_true, "Yes") %>
+            <%= radio_button_tag :sanforized, false, 
+                        (params[:sanforized] == "false" ? true : false) %>
+            <%= label_tag(:sanforized_false, "No") %>
+            <%= radio_button_tag :sanforized, nil, 
+                        (params[:sanforized] == nil ? true : false) %>
+            <%= label_tag(:sanforized_none, "No Preference") %>
+            <br>
+            Selvedge<br>
+            <%= radio_button_tag :selvedge, true, 
+                        (params[:selvedge] == "true" ? true : false) %>
+            <%= label_tag(:selvedge_true, "Yes") %>
+            <%= radio_button_tag :selvedge, false, 
+                        (params[:selvedge] == "false" ? true : false) %>
+            <%= label_tag(:selvedge_false, "No") %>
+            <%= radio_button_tag :selvedge, nil, 
+                        (params[:selvedge] == nil ? true : false) %>
+            <%= label_tag(:selvedge_none, "No Preference") %>
+            <br>
         </div>
     </div>
+    <br><br><br>
+    <%= submit_tag "Search", :name => nil %>
 <% end %>

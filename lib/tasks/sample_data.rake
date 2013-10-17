@@ -24,7 +24,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "SL-100x",
@@ -43,7 +43,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "SL-100x",
@@ -62,7 +62,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "SL-100x",
@@ -81,7 +81,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "SL-100x",
@@ -100,7 +100,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "SL-100x",
@@ -119,7 +119,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 	
 	Item.create!(name: "SL-100x",
@@ -138,7 +138,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "SL-100x",
@@ -157,7 +157,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "SL-100x",
@@ -176,7 +176,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "SL-100x",
@@ -195,7 +195,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 #3sixteen ST-100x-----------------------------------------------
@@ -216,7 +216,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
 	Item.create!(name: "ST-100x",
@@ -235,7 +235,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
 	Item.create!(name: "ST-100x",
@@ -254,7 +254,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
 	Item.create!(name: "ST-100x",
@@ -273,7 +273,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
 	Item.create!(name: "ST-100x",
@@ -292,7 +292,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
 	Item.create!(name: "ST-100x",
@@ -311,7 +311,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
 	Item.create!(name: "ST-100x",
@@ -330,7 +330,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
 	Item.create!(name: "ST-100x",
@@ -349,7 +349,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "215.00",
+				   price: 215.00,
 				   link: "http://www.blueowl.us/product/3sixteen-slim-tapered-145oz-selvedge-denim-in-indigo-model-st-100x/")
 
 
@@ -370,7 +370,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "Stanton 14.5oz",
@@ -389,7 +389,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "Stanton 14.5oz",
@@ -408,7 +408,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "Stanton 14.5oz",
@@ -427,7 +427,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "Stanton 14.5oz",
@@ -446,7 +446,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "Stanton 14.5oz",
@@ -465,7 +465,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "Stanton 14.5oz",
@@ -484,7 +484,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "Stanton 14.5oz",
@@ -503,7 +503,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "Stanton 14.5oz",
@@ -522,7 +522,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "Stanton 14.5oz",
@@ -541,7 +541,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 	Item.create!(name: "Stanton 14.5oz",
@@ -560,7 +560,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "210.00",
+				   price: 210.00,
 				   link: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438")
 
 #N&F x Big John x Rockin' Jelly Bean----------------------------
@@ -580,7 +580,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
 	Item.create!(name: "N&F x Big John x Rockin' Jelly Bean Collaboration",
@@ -599,7 +599,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
 	Item.create!(name: "N&F x Big John x Rockin' Jelly Bean Collaboration",
@@ -618,7 +618,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
 	Item.create!(name: "N&F x Big John x Rockin' Jelly Bean Collaboration",
@@ -637,7 +637,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
 	Item.create!(name: "N&F x Big John x Rockin' Jelly Bean Collaboration",
@@ -656,7 +656,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
 	Item.create!(name: "N&F x Big John x Rockin' Jelly Bean Collaboration",
@@ -675,7 +675,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
 	Item.create!(name: "N&F x Big John x Rockin' Jelly Bean Collaboration",
@@ -694,7 +694,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
 	Item.create!(name: "N&F x Big John x Rockin' Jelly Bean Collaboration",
@@ -707,13 +707,13 @@ def make_items
 				   leg_opening: 7.75,
 				   inseam: 34,
 				   color: "Light Indigo",
-				   fabric_origin: "China",
-				   made_in: "China",
+				   fabric_origin: "Big John RURI",
+				   made_in: "Japan",
 				   denim_weight: 14.5,
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/naked-and-famous-x-big-john-x-rockin-jelly-bean-super-skinny-guy-145oz-ruri-denim-collaboration/")
 
 #APC New Standard
@@ -733,7 +733,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -752,7 +752,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -771,7 +771,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -790,7 +790,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -809,7 +809,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -828,7 +828,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -847,7 +847,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -866,7 +866,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -885,7 +885,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -904,7 +904,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -923,7 +923,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 	Item.create!(name: "New Standard",
@@ -942,7 +942,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=6")
 
 #APC Petit Standard----------------------------------
@@ -962,7 +962,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
 	Item.create!(name: "Petit Standard",
@@ -981,7 +981,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
 	Item.create!(name: "Petit Standard",
@@ -1000,7 +1000,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
 	Item.create!(name: "Petit Standard",
@@ -1019,7 +1019,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
 	Item.create!(name: "Petit Standard",
@@ -1038,7 +1038,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
 	Item.create!(name: "Petit Standard",
@@ -1057,7 +1057,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
 	Item.create!(name: "Petit Standard",
@@ -1076,7 +1076,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
 	Item.create!(name: "Petit Standard",
@@ -1095,7 +1095,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
 	Item.create!(name: "Petit Standard",
@@ -1114,7 +1114,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=665")
 
 #APC Rescue-------------------------------------------------
@@ -1134,7 +1134,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
 	Item.create!(name: "Rescue",
@@ -1153,7 +1153,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
 	Item.create!(name: "Rescue",
@@ -1172,7 +1172,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
 	Item.create!(name: "Rescue",
@@ -1191,7 +1191,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
 	Item.create!(name: "Rescue",
@@ -1210,7 +1210,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
 	Item.create!(name: "Rescue",
@@ -1229,7 +1229,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
 		Item.create!(name: "Rescue",
@@ -1248,7 +1248,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
 	Item.create!(name: "Rescue",
@@ -1267,7 +1267,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=7")
 	
 	Item.create!(name: "Rescue",
@@ -1286,7 +1286,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=7")
 
 #APC Petit New Standard-------------------------------------------
@@ -1306,7 +1306,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 	
 	Item.create!(name: "Petit New Standard",
@@ -1325,7 +1325,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
 	Item.create!(name: "Petit New Standard",
@@ -1344,7 +1344,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
 	Item.create!(name: "Petit New Standard",
@@ -1363,7 +1363,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
 	Item.create!(name: "Petit New Standard",
@@ -1382,7 +1382,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
 	Item.create!(name: "Petit New Standard",
@@ -1401,7 +1401,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
 	Item.create!(name: "Petit New Standard",
@@ -1420,7 +1420,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
 	Item.create!(name: "Petit New Standard",
@@ -1439,7 +1439,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
 	Item.create!(name: "Petit New Standard",
@@ -1458,7 +1458,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
 	Item.create!(name: "Petit New Standard",
@@ -1477,7 +1477,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=3941")
 
 #APC New Cure----------------------------------------------
@@ -1497,7 +1497,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
 	Item.create!(name: "New Cure",
@@ -1516,7 +1516,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
 	Item.create!(name: "New Cure",
@@ -1535,7 +1535,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
 	Item.create!(name: "New Cure",
@@ -1554,7 +1554,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
 	Item.create!(name: "New Cure",
@@ -1573,7 +1573,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
 	Item.create!(name: "New Cure",
@@ -1592,7 +1592,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
 	Item.create!(name: "New Cure",
@@ -1611,7 +1611,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
 	Item.create!(name: "New Cure",
@@ -1630,7 +1630,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
 	Item.create!(name: "New Cure",
@@ -1649,7 +1649,7 @@ def make_items
 				   sanforized: true,
 				   stretch: true,
 				   selvedge: true,
-				   price: "185.00",
+				   price: 185.00,
 				   link: "http://www.contextclothing.com/item.php?id=29")
 
 #Unbranded 101---------------------------------------
@@ -1669,7 +1669,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
 	Item.create!(name: "101",
@@ -1688,7 +1688,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
 	Item.create!(name: "101",
@@ -1707,7 +1707,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
 	Item.create!(name: "101",
@@ -1726,7 +1726,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
 	Item.create!(name: "101",
@@ -1745,7 +1745,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
 	Item.create!(name: "101",
@@ -1764,7 +1764,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
 	Item.create!(name: "101",
@@ -1783,7 +1783,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
 
 #Unbranded 201------------------------------------------
@@ -1803,7 +1803,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
 	Item.create!(name: "201",
@@ -1822,7 +1822,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
 	Item.create!(name: "201",
@@ -1841,7 +1841,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
 	Item.create!(name: "201",
@@ -1860,7 +1860,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
 	Item.create!(name: "201",
@@ -1879,7 +1879,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
 	Item.create!(name: "201",
@@ -1898,7 +1898,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
 	Item.create!(name: "201",
@@ -1917,7 +1917,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
 	Item.create!(name: "201",
@@ -1936,7 +1936,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "78.00",
+				   price: 78.00,
 				   link: "http://www.rueandstate.com/collections/unbranded/products/unbranded-201-indigo-tapered")
 
 #Unbranded 301
@@ -1957,7 +1957,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "82.00",
+				   price: 82.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-145oz-selvedge-in-indigo-model-ub301/")
 
 	Item.create!(name: "301",
@@ -1976,7 +1976,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "82.00",
+				   price: 82.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-145oz-selvedge-in-indigo-model-ub301/")
 
 	Item.create!(name: "301",
@@ -1995,7 +1995,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "82.00",
+				   price: 82.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-145oz-selvedge-in-indigo-model-ub301/")
 
 	Item.create!(name: "301",
@@ -2014,7 +2014,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "82.00",
+				   price: 82.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-145oz-selvedge-in-indigo-model-ub301/")
 
 #Unbranded 121-------------------------------------------------
@@ -2034,7 +2034,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
 	Item.create!(name: "121",
@@ -2053,7 +2053,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
 	Item.create!(name: "121",
@@ -2072,7 +2072,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
 	Item.create!(name: "121",
@@ -2091,7 +2091,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
 	Item.create!(name: "121",
@@ -2110,7 +2110,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
 	Item.create!(name: "121",
@@ -2129,7 +2129,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
 	Item.create!(name: "121",
@@ -2148,7 +2148,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
 	Item.create!(name: "121",
@@ -2167,7 +2167,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
 	Item.create!(name: "121",
@@ -2186,7 +2186,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-skinny-leg-21oz-heavyweight-selvedge-in-indigo-model-ub121/")
 
 #Unbranded 221
@@ -2206,7 +2206,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
 		Item.create!(name: "221",
@@ -2225,7 +2225,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
 		Item.create!(name: "221",
@@ -2244,7 +2244,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
 		Item.create!(name: "221",
@@ -2263,7 +2263,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
 		Item.create!(name: "221",
@@ -2282,7 +2282,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
 		Item.create!(name: "221",
@@ -2301,7 +2301,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
 		Item.create!(name: "221",
@@ -2320,7 +2320,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
 		Item.create!(name: "221",
@@ -2339,7 +2339,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
 		Item.create!(name: "221",
@@ -2358,7 +2358,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-tapered-leg-21oz-heavyweight-selvedge-in-indigo-model-ub221/")
 
 #Unbranded 321------------------------------------------------
@@ -2379,7 +2379,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
 	Item.create!(name: "321",
@@ -2398,7 +2398,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
 	Item.create!(name: "321",
@@ -2417,7 +2417,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
 	Item.create!(name: "321",
@@ -2436,7 +2436,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
 	Item.create!(name: "321",
@@ -2455,7 +2455,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
 	Item.create!(name: "321",
@@ -2474,7 +2474,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
 	Item.create!(name: "321",
@@ -2493,7 +2493,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
 	Item.create!(name: "321",
@@ -2512,7 +2512,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
 	Item.create!(name: "321",
@@ -2531,7 +2531,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "110.00",
+				   price: 110.00,
 				   link: "http://www.blueowl.us/product/unbranded-straight-leg-21oz-heavyweight-selvedge-in-indigo-model-ub321/")
 
 #Baldwin Henley---------------------------------------------
@@ -2551,7 +2551,7 @@ def make_items
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-henley-125oz-kaihara-selvedge-denim-in-indigo/")
 
 Item.create!(name: "The Henley",
@@ -2570,7 +2570,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-henley-125oz-kaihara-selvedge-denim-in-indigo/")
 
 Item.create!(name: "The Henley",
@@ -2589,7 +2589,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-henley-125oz-kaihara-selvedge-denim-in-indigo/")
 
 Item.create!(name: "The Henley",
@@ -2608,7 +2608,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-henley-125oz-kaihara-selvedge-denim-in-indigo/")
 
 Item.create!(name: "The Henley",
@@ -2627,7 +2627,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-henley-125oz-kaihara-selvedge-denim-in-indigo/")
 
 Item.create!(name: "The Henley",
@@ -2646,7 +2646,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-henley-125oz-kaihara-selvedge-denim-in-indigo/")
 
 Item.create!(name: "The Henley",
@@ -2665,7 +2665,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-henley-125oz-kaihara-selvedge-denim-in-indigo/")
 
 Item.create!(name: "The Henley",
@@ -2684,7 +2684,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-henley-125oz-kaihara-selvedge-denim-in-indigo/")
 
 #Baldwin Reed------------------------------------------------
@@ -2705,7 +2705,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-reed-14oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Reed",
@@ -2724,7 +2724,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-reed-14oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Reed",
@@ -2743,7 +2743,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-reed-14oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Reed",
@@ -2762,7 +2762,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-reed-14oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Reed",
@@ -2781,7 +2781,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-reed-14oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Reed",
@@ -2800,7 +2800,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-reed-14oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Reed",
@@ -2819,7 +2819,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-reed-14oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Reed",
@@ -2838,7 +2838,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "220.00",
+				   price: 220.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-reed-14oz-kurabo-selvedge-denim-in-indigo/")
 #Baldwin Samuel--------------------------------------------------
 
@@ -2858,7 +2858,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-samuel-15oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Samuel",
@@ -2877,7 +2877,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-samuel-15oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Samuel",
@@ -2896,7 +2896,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-samuel-15oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Samuel",
@@ -2915,7 +2915,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-samuel-15oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Samuel",
@@ -2934,7 +2934,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-samuel-15oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Samuel",
@@ -2953,7 +2953,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-samuel-15oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Samuel",
@@ -2972,7 +2972,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-samuel-15oz-kurabo-selvedge-denim-in-indigo/")
 
 	Item.create!(name: "The Samuel",
@@ -2991,7 +2991,7 @@ Item.create!(name: "The Henley",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
-				   price: "265.00",
+				   price: 265.00,
 				   link: "http://www.blueowl.us/product/baldwin-denim-the-samuel-15oz-kurabo-selvedge-denim-in-indigo/")
 
 #Eternal 811-------------------------------------------------
@@ -3006,7 +3006,7 @@ Item.create!(name: "The Henley",
 	# 			   sanforized: true,
 	# 			   stretch: false,
 	# 			   selvedge: true,
-	# 			   price: "275.00",
+	# 			   price: 275.00,
 	# 			   link: "http://www.blueowl.us/product/eternal-145oz-slim-straight-raw-selvedge-denim-model-811/")
 
 #------------------------------------------------------------
@@ -3026,6 +3026,6 @@ Item.create!(name: "The Henley",
 	# 			   sanforized: ,
 	# 			   stretch: ,
 	# 			   selvedge: ,
-	# 			   price: "",
+	# 			   price: ,
 	# 			   link: "")
 end

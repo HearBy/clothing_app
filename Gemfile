@@ -11,6 +11,7 @@ gem 'execjs'
 gem 'kaminari'
 
 gem 'pg'
+# gem "ransack"
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
