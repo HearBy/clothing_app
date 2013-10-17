@@ -42,7 +42,7 @@ class Item < ActiveRecord::Base
 
 	def self.made_in_search(made_in)
 		if !made_in.blank?
-			where('made_in LIKE ?', made_in)
+			where('made_in = ?', made_in)
 		else
 			all
 		end	
@@ -50,7 +50,7 @@ class Item < ActiveRecord::Base
 
 	def self.fabric_origin_search(fabric_origin)
 		if !fabric_origin.blank?
-			where('fabric_origin LIKE ?', fabric_origin)
+			where('fabric_origin = ?', fabric_origin)
 		else
 			all
 		end	
@@ -58,7 +58,7 @@ class Item < ActiveRecord::Base
 
 	def self.color_search(color)
 		if !color.blank?
-			where('color LIKE ?', color)
+			where('color = ?', color)
 		else
 			all
 		end	
@@ -66,7 +66,33 @@ class Item < ActiveRecord::Base
 
 	def self.brand_search(brand)
 		if !brand.blank?
-			where('brand LIKE ?', brand)
+			where('brand = ?', brand)
+		else
+			all
+		end	
+	end
+
+	def self.price_search(min, max)
+		if !min.blank? && !max.blank?
+			where('price >= ?', min)
+			.where('price <= ?', max)
+		elsif !min.blank?
+			where('price >= ?', min)
+		elsif !max.blank?
+			where('price <= ?', max)
+		else
+			all
+		end	
+	end
+
+	def self.denim_weight_search(min, max)
+		if !min.blank? && !max.blank?
+			where('denim_weight >= ?', min)
+			.where('denim_weight <= ?', max)
+		elsif !min.blank?
+			where('denim_weight >= ?', min)
+		elsif !max.blank?
+			where('denim_weight <= ?', max)
 		else
 			all
 		end	

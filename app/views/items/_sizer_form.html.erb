@@ -20,9 +20,17 @@
             <%= select_tag :color, options_from_collection_for_select(Item.select(:color).uniq, :color, :color, :selected => params[:color]), :prompt => 'All Colors' %>
             <br>
             <%= select_tag :brand, options_from_collection_for_select(Item.select(:brand).uniq, :brand, :brand, :selected => params[:brand]), :prompt => 'All Brands' %>
-            <br>
+            <br><br><br><br><br>
         </div>
         <div class-"col-md-2">
+            Price <br>
+            <%= text_field_tag :min_price, params[:min_price], placeholder: "Min" %>
+            <%= text_field_tag :max_price, params[:max_price], placeholder: "Max" %>
+            <br>
+            Denim Weight <br>
+            <%= text_field_tag :min_denim_weight, params[:min_denim_weight], placeholder: "Min" %>
+            <%= text_field_tag :max_denim_weight, params[:max_denim_weight], placeholder: "Max" %>
+            <br>
             Sanforized<br>
             <%= radio_button_tag :sanforized, true, 
                         (params[:sanforized] == "true" ? true : false) %>
@@ -46,9 +54,7 @@
                         (params[:selvedge] == nil || 
                          params[:selvedge] == "none" ? true : false) %>
             <%= label_tag(:selvedge_none, "No Preference") %>
-            <br>
         </div>
     </div>
-    <br><br><br>
-    <%= submit_tag "Search", :name => nil %>
+    <%= submit_tag "Search", :name => nil, class: "btn, btn-primary" %>
 <% end %>
