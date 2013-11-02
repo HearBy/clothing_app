@@ -1,6 +1,29 @@
+<% content_for :scripts do %>
+	<script>
+		$(document).ready(function(){
+			$(function() {
+			    $( "#slider-range" ).slider({
+			      range: true,
+			      min: 0,
+			      max: 500,
+			      values: [ 75, 300 ],
+			      slide: function( event, ui ) {
+			        $("#min_price").val("$" + ui.values[0]);
+			        $("#max_price").val("$" + ui.values[1]);
+			      }
+			    });
+
+  			});
+		})
+	</script>
+
+<% end %>
+
 <%= render 'layouts/header' %>
 
 <br>
+
+<div id="slider-range"></div>
 
 <div class="col-md-12">
 
