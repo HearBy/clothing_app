@@ -1,0 +1,39 @@
+<% content_for :scripts do %>
+	<script>
+		$(document).ready(function(){
+			$(function() {
+			    $( "#slider-price" ).slider({
+			      range: true,
+			      min: 0,
+			      max: 500,
+			      values: [ <%= params[:min_price].present? ? params[:min_price] : 75 %>, 
+			      			<%= params[:max_price].present? ? params[:max_price] : 300 %> ],
+			      slide: function( event, ui ) {
+			      	$( "#amount-price" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			        $("#min_price").val(ui.values[0]);
+			        $("#max_price").val(ui.values[1]);
+			      }
+			    });
+			    $( "#amount-price" ).val( "$" + $( "#slider-price" ).slider( "values", 0 ) +
+      		" - $" + $( "#slider-price" ).slider( "values", 1 ) );
+  			});
+
+  			$(function() {
+			    $( "#slider-weight" ).slider({
+			      range: true,
+			      min: 5,
+			      max: 32,
+			      values: [ <%= params[:min_denim_weight].present? ? params[:min_denim_weight] : 		   10 %>, 
+			      			<%= params[:max_denim_weight].present? ? params[:max_denim_weight] : 21 %> ],
+			      slide: function( event, ui ) {
+			      	$( "#amount-weight" ).val(ui.values[ 0 ] + " oz - " + ui.values[ 1 ] + " oz" );
+			        $("#min_denim_weight").val(ui.values[0]);
+			        $("#max_denim_weight").val(ui.values[1]);
+			      }
+			    });
+			    $( "#amount-weight" ).val($( "#slider-weight" ).slider( "values", 0 ) +
+      		" oz - " + $( "#slider-weight" ).slider( "values", 1 ) + " oz" );
+  			});
+		})
+	</script>
+<% end %>

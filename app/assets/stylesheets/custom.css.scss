@@ -1,1 +1,21 @@
 @import "twitter/bootstrap";
+
+// .ui-slider .ui-slider-handle {
+//     cursor: default;
+//     height: 1.2em !important;
+//     position: absolute;
+//     width: 0.5em !important;
+//     z-index: 2;
+// }
+
+#slider-price {
+	font-size:20px;
+	float: left;
+	width: 40%
+}
+
+#slider-weight {
+	font-size:20px;
+	float: left;
+	width: 40%
+}
