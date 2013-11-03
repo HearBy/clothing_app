@@ -1,6 +1,16 @@
 <%= form_tag items_path, :method => 'get', :id => "test" do %>
     <div class"row">
-        <div class="col-md-3">
+        <div class="col-md-2">
+            <%= select_tag :made_in, options_from_collection_for_select(Item.select(:made_in).uniq, :made_in, :made_in, :selected => params[:made_in]), :prompt => 'All Countries' %>
+            <br>
+            <%= select_tag :fabric_origin, options_from_collection_for_select(Item.select(:fabric_origin).uniq, :fabric_origin, :fabric_origin, :selected => params[:fabric_origin]), :prompt => 'All Mills' %>
+            <br>
+            <%= select_tag :color, options_from_collection_for_select(Item.select(:color).uniq, :color, :color, :selected => params[:color]), :prompt => 'All Colors' %>
+            <br>
+            <%= select_tag :brand, options_from_collection_for_select(Item.select(:brand).uniq, :brand, :brand, :selected => params[:brand]), :prompt => 'All Brands' %>
+            <br>
+        </div>
+        <div class="col-md-4">
             <p>
               <label for="amount-waist">Waist Size:</label>
               <input type="text" id="amount-waist" style="border: 0; color: #f6931f; font-weight: bold;" />
@@ -51,17 +61,7 @@
             <%= hidden_field_tag :leg_opening, params[:leg_opening], value: params[:leg_opening] || 8.2 %>
             <br>
         </div>
-        <div class="col-md-2">
-            <%= select_tag :made_in, options_from_collection_for_select(Item.select(:made_in).uniq, :made_in, :made_in, :selected => params[:made_in]), :prompt => 'All Countries' %>
-            <br>
-            <%= select_tag :fabric_origin, options_from_collection_for_select(Item.select(:fabric_origin).uniq, :fabric_origin, :fabric_origin, :selected => params[:fabric_origin]), :prompt => 'All Mills' %>
-            <br>
-            <%= select_tag :color, options_from_collection_for_select(Item.select(:color).uniq, :color, :color, :selected => params[:color]), :prompt => 'All Colors' %>
-            <br>
-            <%= select_tag :brand, options_from_collection_for_select(Item.select(:brand).uniq, :brand, :brand, :selected => params[:brand]), :prompt => 'All Brands' %>
-            <br><br><br><br><br><br>
-        </div>
-        <div class-"col-md-3">
+        <div class-"col-md-4">
             <p>
               <label for="amount-price">Price range:</label>
               <input type="text" id="amount-price" style="border: 0; color: #f6931f; font-weight: bold;" />
@@ -101,6 +101,7 @@
                         (params[:selvedge] == nil || 
                          params[:selvedge] == "none" ? true : false) %>
             <%= label_tag(:selvedge_none, "No Preference") %>
+        <br><br><br><br><br><br><br>
         </div>
     </div>
     <%= submit_tag "Search", :name => nil, class: "btn, btn-primary" %>
