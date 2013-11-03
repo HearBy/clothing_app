@@ -1,0 +1,17 @@
+<script>
+
+$(function() {
+    $( "#slider-name" ).slider({
+      value: [ <%= params[name.to_sym].present? ? params[name.to_sym] : 32 %> ],
+      min: min,
+      max: max,
+      step: step,
+      slide: function( event, ui ) {
+      	$( "#amount-name" ).val( ui.value + " inches" );
+        $( "#name" ).val(ui.value);
+      }
+    });
+    $( "#amount-name" ).val( $( "#slider-name" ).slider( "value" ) + " inches" );
+});
+
+</script>

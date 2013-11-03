@@ -1,15 +1,54 @@
 <%= form_tag items_path, :method => 'get', :id => "test" do %>
     <div class"row">
-        <div class="col-md-2">
-            <%= text_field_tag :waist, params[:waist], placeholder: "Waist" %>
+        <div class="col-md-3">
+            <p>
+              <label for="amount-waist">Waist Size:</label>
+              <input type="text" id="amount-waist" style="border: 0; color: #f6931f; font-weight: bold;" />
+            </p>
+            <div class="slider-single">
+                <div id="slider-waist"></div>
+            </div><br>
+            <%= hidden_field_tag :waist, params[:waist], value: params[:waist] || 32 %>
             <br>
-            <%= text_field_tag :front_rise, params[:front_rise], placeholder: "Front Rise" %>
+            
+            <p>
+              <label for="amount-front_rise">Front Rise Size:</label>
+              <input type="text" id="amount-front_rise" style="border: 0; color: #f6931f; font-weight: bold;" />
+            </p>
+            <div class="slider-single">
+                <div id="slider-front_rise"></div>
+            </div><br>
+            <%= hidden_field_tag :front_rise, params[:front_rise], value: params[:front_rise] || 10 %>
             <br>
-            <%= text_field_tag :thigh, params[:thigh], placeholder: "Thigh" %>
+
+            <p>
+              <label for="amount-thigh">Thigh Size:</label>
+              <input type="text" id="amount-thigh" style="border: 0; color: #f6931f; font-weight: bold;" />
+            </p>
+            <div class="slider-single">
+                <div id="slider-thigh"></div>
+            </div><br>
+            <%= hidden_field_tag :thigh, params[:thigh], value: params[:thigh] || 11 %>
             <br>
-            <%= text_field_tag :knee, params[:knee], placeholder: "Knee" %>
+            
+            <p>
+              <label for="amount-knee">Knee Size:</label>
+              <input type="text" id="amount-knee" style="border: 0; color: #f6931f; font-weight: bold;" />
+            </p>
+            <div class="slider-single">
+                <div id="slider-knee"></div>
+            </div><br>
+            <%= hidden_field_tag :knee, params[:knee], value: params[:knee] || 8 %>
             <br>
-            <%= text_field_tag :leg_opening, params[:leg_opening], placeholder: "Leg Opening" %>
+            
+            <p>
+              <label for="amount-leg_opening">Leg Opening Size:</label>
+              <input type="text" id="amount-leg_opening" style="border: 0; color: #f6931f; font-weight: bold;" />
+            </p>
+            <div class="slider-single">
+                <div id="slider-leg_opening"></div>
+            </div><br>
+            <%= hidden_field_tag :leg_opening, params[:leg_opening], value: params[:leg_opening] || 8.2 %>
             <br>
         </div>
         <div class="col-md-2">
@@ -22,22 +61,22 @@
             <%= select_tag :brand, options_from_collection_for_select(Item.select(:brand).uniq, :brand, :brand, :selected => params[:brand]), :prompt => 'All Brands' %>
             <br><br><br><br><br><br>
         </div>
-        <div class-"col-md-2">
+        <div class-"col-md-3">
             <p>
               <label for="amount-price">Price range:</label>
               <input type="text" id="amount-price" style="border: 0; color: #f6931f; font-weight: bold;" />
             </p>
             <div id="slider-price"></div>
-            <%= hidden_field_tag :min_price, params[:min_price] %>
-            <%= hidden_field_tag :max_price, params[:max_price] %>
+            <%= hidden_field_tag :min_price, params[:min_price], value: params[:min_price] || 0 %>
+            <%= hidden_field_tag :max_price, params[:max_price], value: params[:max_price] || 500 %>
             <br>
             <p>
               <label for="amount-weight">Denim weight:</label>
               <input type="text" id="amount-weight" style="border: 0; color: #f6931f; font-weight: bold;" />
             </p>
             <div id="slider-weight"></div>
-            <%= hidden_field_tag :min_denim_weight, params[:min_denim_weight] %>
-            <%= hidden_field_tag :max_denim_weight, params[:max_denim_weight] %>
+            <%= hidden_field_tag :min_denim_weight, params[:min_denim_weight], value: params[:min_denim_weight] || 5 %>
+            <%= hidden_field_tag :max_denim_weight, params[:max_denim_weight], value: params[:max_denim_weight] || 32 %>
             <br>
             Sanforized<br>
             <%= radio_button_tag :sanforized, true, 
