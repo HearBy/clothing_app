@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.0'
-gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
-                          :github => 'anjlab/bootstrap-rails',
-                          :branch => '3.0.0'
 gem 'will_paginate', '3.0.4'
-gem 'bootstrap-will_paginate', '0.0.9'
+
+gem 'zurb-foundation'
+gem 'foundation-icons-sass-rails'
+
 gem 'rake'
 gem 'execjs'
 gem 'kaminari'
