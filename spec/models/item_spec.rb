@@ -39,6 +39,18 @@ describe Item do
 		it "should give me all jeans with no params[:waist]" do
 			Item.true_waist_search(nil).should include(@small_jean && @large_jean)
 		end
+
+		describe "with half inch jeans in either direction" do
+			before do
+				@half_up = create(:item, waist: 32.5)
+				@half_down = create(:item, waist: 31.5) 
+			end
+
+			it "should find the jean size I'm looking for" do
+				Item.true_waist_search(32).should include(@small_jean && @half_down && @half_up)
+				Item.true_waist_search(32).should_not include(@large_jean)
+			end
+		end
 	end
 
 	describe "price_search" do
@@ -72,6 +84,14 @@ describe Item do
 			Item.fit_search("skinny").should_not include(@slim_straight_jean)
 			Item.fit_search("slim straight").should include(@slim_straight_jean)
 			Item.fit_search("slim straight").should_not include(@skinny_jean)
+		end
+
+		it "should be able to find more than one fit type" do
+			Item.fit_search(["skinny", "slim straight"]).should include(@skinny_jean && @slim_straight_jean)
+		end
+
+		it "should give me all jeans with no params[:fit]" do
+			Item.fit_search(nil).should include(@skinny_jean && @slim_straight_jean)
 		end
 	end
 end
