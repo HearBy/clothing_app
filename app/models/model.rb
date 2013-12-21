@@ -13,16 +13,20 @@ class Model < ActiveRecord::Base
 
 	validates_numericality_of :price, greater_than_or_equal_to: 20, less_than_or_equal_to: 1000
 
-	def self.price_search(min, max)
-		where('price >= ?', min)
-		.where('price <= ?', max)
-	end
+	# def self.price_search(min, max)
+	# 	if min && max
+	# 		where('price >= ?', min)
+	# 		.where('price <= ?', max)
+	# 	else
+	# 		all
+	# 	end
+	# end
 
-	def self.fit_search(search)
-		if search
-			where('fit = ?', search)
-		else
-			all
-		end
-	end
+	# def self.fit_search(search)
+	# 	if search
+	# 		where('fit = ?', search)
+	# 	else
+	# 		all
+	# 	end
+	# end
 end

@@ -12,6 +12,16 @@ FactoryGirl.define do
 		stretch 	  false
 		selvedge 	  true
 		url 		  "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438"
+	
+		# factory :model_with_jeans do
+		# 	ignore do
+		# 		items_count 1
+		# 	end
+
+		# 	after(:create) do |model, evaluator|
+		# 		create_list(:item, evaluator.items_count, model: model)
+		# 	end
+		# end
 	end
 
 	factory :item do

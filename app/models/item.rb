@@ -10,9 +10,25 @@ class Item < ActiveRecord::Base
 	validates_numericality_of :waist, greater_than_or_equal_to: 26, less_than_or_equal_to: 42
 	validates_numericality_of :front_rise, greater_than_or_equal_to: 8, less_than_or_equal_to: 13
 
+	def self.price_search(min, max)
+		if min && max 
+			joins(:model).where('models.price >= ?', min).where('models.price <= ?', max)
+		else
+			all 
+		end
+	end
+
 	def self.true_waist_search(waist_size)
 		if waist_size	
 			where('waist = ?', waist_size)
+		else
+			all
+		end
+	end
+
+	def self.fit_search(search)
+		if search
+			joins(:model).where('models.fit = ?', search)
 		else
 			all
 		end

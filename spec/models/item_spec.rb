@@ -40,4 +40,38 @@ describe Item do
 			Item.true_waist_search(nil).should include(@small_jean && @large_jean)
 		end
 	end
+
+	describe "price_search" do
+		before do
+			@cheap_model = create(:model, price: 100)
+			@expensive_model = create(:model, price: 200)
+			@cheap_jean = create(:item, model: @cheap_model)
+			@expensive_jean = create(:item, model: @expensive_model)
+		end
+
+		it "should find the jean with price I'm looking for" do
+			Item.price_search(75, 125).should include(@cheap_jean)
+			Item.price_search(75, 125).should_not include(@expensive_jean)
+		end
+
+		it "should give me all jeans with no params[:min_price] or params[:max_price]" do
+			Item.price_search(nil, nil).should include(@cheap_jean && @expensive_jean)
+		end
+	end
+
+	describe "fit_search" do
+		before do
+			@skinny_model = 		create(:model, fit: "skinny")
+			@slim_straight_model =  create(:model, fit: "slim straight")
+			@skinny_jean = create(:item, model: @skinny_model)
+			@slim_straight_jean = create(:item, model: @slim_straight_model)
+		end
+
+		it "should find the jean with the fit I'm looking for" do
+			Item.fit_search("skinny").should include(@skinny_jean)
+			Item.fit_search("skinny").should_not include(@slim_straight_jean)
+			Item.fit_search("slim straight").should include(@slim_straight_jean)
+			Item.fit_search("slim straight").should_not include(@skinny_jean)
+		end
+	end
 end

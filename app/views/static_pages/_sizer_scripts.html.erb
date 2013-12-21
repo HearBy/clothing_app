@@ -1,0 +1,43 @@
+<% content_for :scripts do %>
+	<script>
+		$(document).ready(function(){
+			// $(function() {
+			// 	$('#show-slider').click(function(){
+			// 		$("#slider-waist").slider({ disabled: false });
+			// 	});
+			// });
+
+			$(function() {
+			    $( "#slider-waist" ).slider({
+			      value: [ <%= params[:waist].present? ? params[:waist] : 32 %> ],
+			      min: 26,
+			      max: 44,
+			      step: 1,
+			      slide: function( event, ui ) {
+			      	$( "#amount-waist" ).val( ui.value + " inches" );
+			        $( "#waist" ).val(ui.value);
+			      }
+			    });
+			    $( "#amount-waist" ).val( $( "#slider-waist" ).slider( "value" ) + " inches" );
+  			});
+
+			$(function() {
+			    $( "#slider-price" ).slider({
+			      range: true,
+			      min: 0,
+			      max: 500,
+			      step: 10,
+			      values: [ <%= params[:min_price].present? ? params[:min_price] : 0 %>, 
+			      			<%= params[:max_price].present? ? params[:max_price] : 500 %> ],
+			      slide: function( event, ui ) {
+			      	$( "#amount-price" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			        $( "#min_price" ).val(ui.values[0]);
+			        $( "#max_price" ).val(ui.values[1]);
+			      }
+			    });
+			    $( "#amount-price" ).val( "$" + $( "#slider-price" ).slider( "values", 0 ) +
+      		" - $" + $( "#slider-price" ).slider( "values", 1 ) );
+  			});
+		})
+	</script>
+<% end %>

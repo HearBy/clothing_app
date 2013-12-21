@@ -86,30 +86,4 @@ describe Model do
 			end
 		end
 	end
-
-	describe "price_search" do
-		before do
-			@cheap_model = 		create(:model, price: 100)
-			@expensive_model =  create(:model, price: 200)
-		end
-
-		it "should find the jean with price I'm looking for" do
-			Model.price_search(75, 125).should include(@cheap_model)
-			Model.price_search(75, 125).should_not include(@expensive_model)
-		end
-	end
-
-	describe "fit_search" do
-		before do
-			@skinny_model = 		create(:model, fit: "skinny")
-			@slim_straight_model =  create(:model, fit: "slim straight")
-		end
-
-		it "should find the jean with the fit I'm looking for" do
-			Model.fit_search("skinny").should include(@skinny_model)
-			Model.fit_search("skinny").should_not include(@slim_straight_model)
-			Model.fit_search("slim straight").should include(@slim_straight_model)
-			Model.fit_search("slim straight").should_not include(@skinny_model)
-		end
-	end
 end
