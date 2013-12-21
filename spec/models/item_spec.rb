@@ -35,5 +35,9 @@ describe Item do
 			Item.true_waist_search(32).should include(@small_jean)
 			Item.true_waist_search(32).should_not include(@large_jean)
 		end
+
+		it "should give me all jeans with no params[:waist]" do
+			Item.true_waist_search(nil).should include(@small_jean && @large_jean)
+		end
 	end
 end

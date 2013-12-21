@@ -14,13 +14,14 @@ class ItemsController < ApplicationController
     	@leg_opening = params[:leg_opening].to_d/params[:waist].to_d
     end
 
-    @items = Item.waist_search(params[:waist]).front_rise_search(params[:waist], @front_rise)
-                 .thigh_search(params[:waist], @thigh).knee_search(params[:waist], @knee)
-                 .leg_opening_search(params[:waist], @leg_opening).made_in_search(params[:made_in])
-                 .fabric_origin_search(params[:fabric_origin]).color_search(params[:color])
-                 .brand_search(params[:brand]).price_search(params[:min_price], params[:max_price])
-                 .denim_weight_search(params[:min_denim_weight], params[:max_denim_weight])
-                 .sanforized_search(params[:sanforized]).selvedge_search(params[:selvedge])
+    @items = Item.all
+    # @items = Item.waist_search(params[:waist]).front_rise_search(params[:waist], @front_rise)
+    #              .thigh_search(params[:waist], @thigh).knee_search(params[:waist], @knee)
+    #              .leg_opening_search(params[:waist], @leg_opening).made_in_search(params[:made_in])
+    #              .fabric_origin_search(params[:fabric_origin]).color_search(params[:color])
+    #              .brand_search(params[:brand]).price_search(params[:min_price], params[:max_price])
+    #              .denim_weight_search(params[:min_denim_weight], params[:max_denim_weight])
+    #              .sanforized_search(params[:sanforized]).selvedge_search(params[:selvedge])
 
   end
 

@@ -1,6 +1,25 @@
+
+
 <div class="row">
-	<div class="large-12 columns">
-		<h1>StaticPages#home</h1>
-		<p>Find me in app/views/static_pages/home.html.erb</p>	
+	<div class="large-3 columns">
+		<ul class="side-nav">
+			<li class="active"><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li class="divider"></li>
+			<li><a href="#">Link 3</a></li>
+			<li><a href="#">Link 4</a></li>
+		</ul>
+	</div>
+	<div class="large-9 columns">
+		<h1>Sizer</h1>
+			<% @jeans.each_slice(3) do |three_jeans| %>
+				<div class="row">
+					<% three_jeans.each do |jean| %>
+						<div class="large-4 columns left">
+							<%= render "jean", jean: jean %>
+						</div>
+					<% end %>
+				</div>
+			<% end %>
 	</div>
 </div>

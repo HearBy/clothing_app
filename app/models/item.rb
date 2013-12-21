@@ -11,7 +11,11 @@ class Item < ActiveRecord::Base
 	validates_numericality_of :front_rise, greater_than_or_equal_to: 8, less_than_or_equal_to: 13
 
 	def self.true_waist_search(waist_size)
-		where('waist = ?', waist_size)
+		if waist_size	
+			where('waist = ?', waist_size)
+		else
+			all
+		end
 	end
 
 	# def self.waist_search(waist_size)
