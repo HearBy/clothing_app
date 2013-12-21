@@ -14,11 +14,26 @@ def make_items
 				   price: 215.00,
 				   denim_weight: 14.5,
 				   color: "Indigo",
-				   fit: "Slim Straight",
+				   fit: "slim straight",
 				   sanforized: true,
 				   stretch: false,
 				   selvedge: true,
 				   url: "http://www.selfedge.com/shop/index.php?main_page=product_info&cPath=82&products_id=438",)
+
+	#2 Unbranded 101
+	Model.create!(name: "101",
+				   brand: "Unbranded",
+				   fabric_origin: "Japan",
+				   made_in: "China",
+				   price: 78.00,
+				   denim_weight: 15,
+				   color: "Blue",
+				   fit: "straight",
+				   sanforized: false,
+				   stretch: true,
+				   selvedge: false,
+				   url: "http://www.rueandstate.com/collections/unbranded/products/unbranded-101-indigo-skinny-straight-raw-denim")
+
 
 
 	#1 3sixteen SL-100x
@@ -50,4 +65,26 @@ def make_items
 				   inseam: 37,
 				   tag_size: 32,
 				   model_id:1,)
+
+
+
+	#2 Unbranded 101
+	Item.create!(waist: 31.5,
+				   front_rise: 9.4,
+				   thigh: 11,
+				   knee: 8,
+				   leg_opening: 7.25,
+				   inseam: 36.5,
+				   tag_size: 31,
+				   model_id:2,)
+
+	#2 Unbranded 101
+	Item.create!(waist: 32.5,
+				   front_rise: 9.5,
+				   thigh: 11,
+				   knee: 8.25,
+				   leg_opening: 7.25,
+				   inseam: 36.5,
+				   tag_size: 32,
+				   model_id:2,)
 end

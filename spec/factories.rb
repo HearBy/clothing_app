@@ -7,7 +7,7 @@ FactoryGirl.define do
 		price 		  215.00
 		denim_weight  14.5
 		color 		  "Indigo"
-		fit 		  "Slim Straight"
+		fit 		  "slim straight"
 		sanforized 	  true
 		stretch 	  false
 		selvedge 	  true
